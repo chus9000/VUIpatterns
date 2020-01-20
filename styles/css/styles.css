@@ -40,6 +40,7 @@ h1,h2,h3{ font-family: 'Poppins', sans-serif; }
 p{ line-height: 1.6; font-size: 1.05em; font-weight: 400; color: #555; }
 
 h1{ font-size: 2em; line-height: 1; }
+.policies h1{font-size: 4em}
 h2{ font-size: 3em; line-height: 1.1; }
 h3{ font-size: 2.5em; }
 h4{ font-size: 1.5em; }
@@ -118,6 +119,8 @@ b.light-color{ color: #444; }
 
 .main-area{ position: relative; z-index: 1; padding: 0 20px; background-size: cover; color: #fff; }
 
+.main-policies{ padding: 20px 0; margin: 0 auto; max-width: 900px; text-align: left;}
+
 .main-area:after{ content:''; position: absolute; top: 0; bottom: 0;left: 0; right: 0; z-index: -1;  
 	opacity: 0; background: #000; }
 
@@ -141,4 +144,6 @@ b.light-color{ color: #444; }
 .timeline-Widget{max-width: 600px; margin: 10px auto}
 
 .twitter-timeline{max-width: 600px; margin: 10px auto}
+
+.centerSign {text-align: center;padding-top: 40px; display: block;margin: 0 auto}
 
