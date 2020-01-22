@@ -37,11 +37,11 @@ h1,h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; }
 
 h1,h2,h3{ font-family: 'Poppins', sans-serif; }
 
-p{ line-height: 1.6; font-size: 1.05em; font-weight: 400; color: #555; }
+p{ line-height: 1.6; font-size: 1.05em; font-weight: 400; color: #000; }
 
 h1{ font-size: 2em; line-height: 1; }
 .policies h1{font-size: 4em}
-h2{ font-size: 3em; line-height: 1.1; }
+h2{ font-size: 2.5em; line-height: 1.1; padding: 30px 0 }
 h3{ font-size: 2.5em; }
 h4{ font-size: 1.5em; }
 h5{ font-size: 1.2em; }
@@ -110,21 +110,27 @@ b.light-color{ color: #444; }
 
 .logo{width: 300px; height: auto}
 
+.imgAuto{width:auto; height: auto; }
+
 .title{margin: 20px auto}
+
+.firma{margin-top: 40px;}
+
+.longText{text-align: left}
 
 
 /* ---------------------------------
 3. MAIN SECTION
 --------------------------------- */
 
-.main-area{ position: relative; z-index: 1; padding: 0 20px; background-size: cover; color: #fff; }
+.main-area{ position: relative; z-index: 1; padding: 0 20px; background-size: cover; color: #000; margin: 0 auto; max-width: 900px; }
 
 .main-policies{ padding: 20px 0; margin: 0 auto; max-width: 900px; text-align: left;}
 
 .main-area:after{ content:''; position: absolute; top: 0; bottom: 0;left: 0; right: 0; z-index: -1;  
 	opacity: 0; background: #000; }
 
-.main-area .desc{ margin: 20px auto 50px auto; max-width: 500px; }
+.main-area .desc{ margin: 20px auto 20px auto; max-width: 500px; }
 	
 .main-area .notify-btn{ padding: 13px 35px; border-radius: 50px; border: 2px solid #F84982;
 	color: #fff; background: #F84982; }
@@ -143,7 +149,7 @@ b.light-color{ color: #444; }
 
 .timeline-Widget{max-width: 600px; margin: 10px auto}
 
-.twitter-timeline{max-width: 600px; margin: 10px auto}
+.twitter-timeline, .twitter-tweet{margin: 10px auto 40px!important}
 
 .centerSign {text-align: center;padding-top: 40px; display: block;margin: 0 auto}
 
