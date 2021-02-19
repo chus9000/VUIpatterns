@@ -85,9 +85,9 @@ b.light-color{ color: #444; }
 
 .center-text{ text-align: center; } 
 
-.display-table{ display: table; height: 100%; width: 100%; }
+.display-table{ display: block; height: 100%; width: 100%; }
 
-.display-table-cell{ display: table-cell; vertical-align: middle; }
+.display-table-cell{ display: block; vertical-align: middle; }
 
 
 
